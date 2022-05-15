@@ -1,0 +1,217 @@
+body{
+	margin: 0;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: 20% 50% 30%;
+	padding: 5px;
+	border-bottom: #ddd solid 1px;
+}
+
+.image > a > img{
+	width: 100px;
+	margin-left: 100px;
+}
+
+.links{
+	word-spacing: 10px;
+	padding: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.links > a:hover{
+	text-decoration: underline solid #000 4px;
+	text-underline-offset: 20px;
+}
+
+.awards{
+	word-spacing: 3px;
+}
+
+ .icons{
+ 	word-spacing: 10px;
+ 	padding: 15px;
+ 	margin-left: 100px;
+ }
+
+.stanbic-ad{
+	display: grid;
+	justify-content: center;
+	padding: 20px;
+}
+
+.row{
+	display: grid;
+	padding: 0 0 0 120px;
+	grid-template-columns: 70% 25%;
+}
+
+.featured-title{
+	display: grid;
+	justify-content: center;
+	background-color: #fff;
+	width: 60%;
+	text-align: center;
+	margin-top: -100px;
+	margin-left: 120px;
+	text-shadow: #000;
+}
+
+.column-right{
+	width: 300px;
+	margin-top: auto;
+	margin-left: -40px;
+}
+
+.column-right > img{
+	width: 300px;
+}
+
+.column{
+	display: grid;
+	grid-template-columns: 50% 40%;
+	border-top: solid #ddd 2px;
+}
+
+.column > img{
+	width: 400px;
+}
+
+.followRow{
+	display: grid;
+	margin-top: 50px;
+	padding: 0 0 0 120px;
+	grid-template-columns: 65%;
+}
+
+.followBusinessInsider{
+	background-color: #ddd;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.followBusinessInsider > img{
+	width: 70px;
+	margin-left: 50px;
+}
+
+.childColumn{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.form{
+	background-color: #ccc;
+	padding: 25px;
+}
+
+.form > p{
+	color:  slateblue;
+}
+
+input{
+	padding: 15px 37px 15px 37px;
+	font-size: 17px;
+	line-height: 23px;
+	border: none;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	width: 45%;
+}
+
+.subscribeButton{
+	background-position: 15px;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: slateblue;
+	color: #fff;
+	padding: 13px 15px 13px 50px;
+	font-size: 20px;
+	line-height: 26px;
+	border: none;
+	letter-spacing: -.76px;
+	font-weight: 500;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+}
+
+.notification{
+	background-color: rgb(50, 50, 50);
+	color: #fff;
+	padding: 20px;
+}
+
+.activateButton{
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 26px;
+	border: none;
+	letter-spacing: -.76px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.latest{
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
+	padding: 0 0 0 120px;
+	grid-column-gap: 55px;
+}
+
+.latestPost{
+	margin-top: 40px;
+}
+
+.latestPost > h2{
+	padding: 0 0 0 120px;
+}
+
+.latest > .columns > img{
+	width: 250px;
+}
+
+.markets, .leaders, .careers, .lifestyle{
+	display: grid;
+	margin-top: 100px;
+	padding: 0 0 0 120px;
+	grid-template-columns: 75%;
+	grid-row-gap: 20px;
+}
+
+.markets > .column > img, .leaders > .column > img, .careers > .column > img, .lifestyle > .column > img{
+	width: 450px;
+}
+
+.footer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 100px;
+	padding: 0 0 0 120px;
+}
+
+li{
+	list-style: none;
+}
+
+.editions > h5, .editions > ul{
+	text-align: center;
+}
+
+.editions > ul > a > li{
+	display: inline;
+}
+
+.copyright{
+	margin-top: 50px;
+	text-align: center;
+}
